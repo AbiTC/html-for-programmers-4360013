@@ -9,7 +9,63 @@
 </head>
 
 <body>
-  
+  <h1 style="color: lightseagreen;">Bloomish</h1>
+  <form action="" method="post">
+    <!-- contact section -->
+    <div>
+      <!-- recipient details -->
+      <div>
+        <h2>Recipient Details</h2>
+        <label for="recipient-name"><b>Full name</b></label> <br>
+        <input type="text" id="recipient-name" size="40"> <br>
+        
+        <label for="recipient-telephone"><b>Telephone Number</b></label> <br>
+        <input type="tel" id="recipient-telephone" size="40"> <br>
+        
+        <label for="address"><b>Address</b></label> <br>
+        <input type="text" id="address" size="40"> <br>
+      </div>
+      
+      <!-- sender details -->
+      <div>
+        <h2>Sender Details</h2>
+        <label for="sender-name"><b>Full name</b></label> <br>
+        <input type="text" id="sender-name" size="40"> <br>
+        
+        <label for="sender-telephone"><b>Telephone Number</b></label> <br>
+        <input type="tel" id="sender-telephone" size="40"> <br>
+        
+        <label for="sender-email"><b>Email Address</b></label> <br>
+        <input type="email" id="sender-email" size="40"> <br>
+        </div>
+      </div>
+      
+    
+    <!-- order section -->
+    <div>
+      <!-- order details -->
+      <div>
+        <h2>Order</h2>
+        <label for="bouquet-type"><b>Bouquet Type</b></label> <br>
+        <select name="bouquet-type" id="bouquet-type" length="40">
+          <option value="basic">Basic Bouquet - £24.99</option>
+          <option value="premium">Premium Bouquet - £49.99</option>
+          <option value="premium-choc">Premium Bouquet + Chocolate - £69.99</option>
+        </select> <br>
+      </div> 
+
+      <!-- message section -->
+      <div>
+        <label for="message"><b>Message</b></label> <br>
+        <textarea name="message" rows="10" cols="30"></textarea> <br>
+        
+        <button type="submit">Checkout</button>
+      </div>
+    </div>
+    
+
+  </form>
 </body>
+
 
 </html>
